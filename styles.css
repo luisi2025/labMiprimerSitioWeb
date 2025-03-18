@@ -1,0 +1,122 @@
+body{
+    background-color:#f1f6e0;
+    margin: 10px;
+    padding: 10px;
+}
+.parrafo{
+    color: black;
+}
+
+h2{
+    color: blue;
+}
+.parrafo{
+    text-align: justify;
+    font-size: larger;
+}
+.imag{
+    border-radius: 25px;
+}
+.pasatiempo, .li{
+    font-family: cursive;
+    font-size: 19px;
+}
+
+.tpriori{
+    font-family: cursive;
+    font-size: 19px;
+    
+}
+.table{
+    width: 66%;
+    margin: 0%;
+    border-collapse: collapse;
+    align-items: normal;
+}
+th{
+    font-size: 19px;
+    background-color: aquamarine;
+    color: black;
+    padding: 8px;
+    text-align: center;
+    border: 2px solid;
+    border-color: beige;
+    border-radius: 5px;
+}
+td{
+    padding: 8px;
+    font-size: 19px;
+    text-align: left;
+    border: 2px solid;
+    border-radius: 5px;
+    border-color: beige;
+
+}
+
+/* Aplica el mismo estilo a todas las filas usando nth-child--- si quito la (n) y coloco event, toma las filas pares */
+tr:nth-child(n){
+    background-color: #9dc2b9;
+}
+
+/*se activa cuando el cursor del ratón pasa sobre una fila (tr)*/
+tr:hover{
+    background-color:#53ac59;
+}
+fieldset{
+    width: auto;
+    align-items:normal;
+}
+/*Al establecer el margen en 0, el formulario se alineará a la izquierda del contenedor padre (en este caso, el <body>).*/
+.formulario{
+    width: 400px;
+    height: auto;
+    margin: 0;
+    padding: 20px;
+    border: 1px solid #69a7e2;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: #a6b4c1;
+    align-items:normal;
+}
+
+label{
+    flex: 1;
+    text-align: left;
+    font-weight: bold;
+}
+/** Alinea los items, el imput(text) se coloca debajo de los nombres(LABEL) y toma el 100% de ancho del formulario*/
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    flex: 2;
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+
+
+}
+button {
+    /* grid-column: span 2; El botón ocupa ambas columnas|| Le da estilo al boton... */
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+button {
+    /* grid-column: span 2; El botón ocupa ambas columnas|| Le da estilo al boton... */
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+/** Efecto al pasar el mouse por encima del boton*/
+button:hover {
+    background-color: #45a049;
+}

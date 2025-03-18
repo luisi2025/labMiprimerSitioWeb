@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer sitio web</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div>
+    <h1>Bienvenido a Mi Página Personal</h1>
+    <h2>Sobre Mi</h2>
+    
+    
+    <div class="parrafo">
+    <p>Pablo es un tecnólogo en análisis y desarrollo de sistemas de información con una sólida formación en la creación, gestión y optimización de soluciones tecnológicas. Apasionado por la innovación y la resolución de problemas, cuenta con habilidades en programación, análisis de datos y diseño de sistemas. Su enfoque metódico y su compromiso con la calidad lo convierten en un profesional confiable para abordar proyectos tecnológicos y garantizar resultados eficientes.</p>
+    <p>Pablo disfruta de una vida equilibrada entre su pasión profesional y sus actividades personales. Entre sus hobbies destacan jugar y seguir el fútbol, pasar tiempo de calidad con su familia, y dedicar horas a programar, una actividad que combina su amor por la tecnología y la creatividad. Estas actividades reflejan su espíritu dinámico y su habilidad para combinar sus intereses personales con su desarrollo profesional.</p>
+    </div>
+
+    <div class="imag">
+        <h2>Mi imagen</h2>
+        <img src="./imagen/ima.png" alt="Imagen personal" width="300px">
+
+
+    </div>
+
+
+    <h2>Redes Sociales</h2>
+    <div class="urlink">
+        <h4>
+            <img src="./imagen/f.ico" alt="" width="20px" height="20px">
+            <a href="https://es-la.facebook.com/" target="_blank">Facebook</a><br>
+            <img src="./imagen/x.ico" alt="" width="20px" height="20px">
+            <a href="https://x.com/?lang=es" target="_blank">Red social X</a><br>
+            <img src="./imagen/tic.ico" alt="" width="20px" height="20px">
+            <a href="https://www.tiktok.com/login?lang=es&redirect_url=https%3A%2F%2Fwww.tiktok.com%2Fupload%3Flang%3Des" target="_blank">TikTok</a><br>
+            <img src="./imagen/y.ico" alt="" width="20px" height="20px">
+            <a href="https://www.youtube.com/?app=desktop&hl=es" target="_blank">Youtube</a><br>
+            
+        
+        </h4>
+
+    </div>
+
+    <h2>Mis Pasatiempos</h2>
+    <div class="pasatiempo">
+       
+        <ul>
+            
+            <li>Leer libros</li>
+            <li>Programar</li>
+            <li>Jugar</li>
+
+
+        </ul>
+
+
+    </div>
+
+    <h2>Tareas Prioritarias</h2>
+    <div class="tpriori">
+        
+        <ol>
+            
+            <li>Estudiar para el Proyecto</li>
+            <li>Completar el Laboratorio</li>
+            <li>Hacer Ejercicio</li>
+            
+
+        </ol>
+
+    </div>
+
+    <section>
+        <h2>Horario de Actividades Semanales</h2>
+
+        <table>
+            <thead>
+                <tr><th>Lunes</th><th>Martes</th><th>Miercoles</th><th>Jueves</th><th>Viernes</th></tr>
+
+            </thead>
+
+            <tbody>
+                <tr><td>Clases de programación</td><td>Estudio de matemáticas</td><td>Deporte</td><td>Trabajo en el proyecto</td><td>Revisión de tareas</td></tr>
+              
+                <tr><td>Clases de programación</td><td>Estudio de matemáticas</td><td>Deporte</td><td>Trabajo en el proyecto</td><td>Revisión de tareas</td></tr>
+
+            </tbody>
+
+            
+
+
+        </table><br><br>
+
+
+
+    </section>
+
+    <section class="form">
+    
+        <h1 style="color: blue;">Formulario de Contacto</h1>
+
+        <form class="formulario" onsubmit="return validarFormulario()">
+
+            <fieldset>
+                <legend style="font-size:x-large; font-weight: bold ;">Datos de USuario</legend>
+
+                    <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="  Ingrese su Nombre" ><br>
+                    </div>
+        
+                    <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="  Ingrese su Email" ><br>
+                    </div>
+        
+                    <div class="form-group">
+                    <label for="password">Contraseña</label>
+                    <input type="password" id="password" name="password" placeholder="Ingrese su Contraseña" /*required*/><br><br>
+                    </div>
+        
+        
+                    <label for="imagen">Motivo de Contacto</label><br>
+                    <textarea name="tarea" id="tarea" rows="10" cols="40" placeholder="Ingrese el Motivo..."></textarea><br><br>
+                    
+                    <button type="submit">Registrar</button><br>
+
+            </fieldset>
+
+        </form>
+
+        
+            
+         
+    </section>
+
+
+
+    <script src="/javascript.js"></script>
+</body>
+</html>
